@@ -16,17 +16,25 @@ const routeMap = {
 
 const ChipTabs = ({ onClickItem }) => {
   const location = useLocation();
-  const selected = tabs.find((tab) => routeMap[tab] === location.pathname);
   const navigate = useNavigate();
+  const [selected, setSelected] = useState(() =>
+    tabs.find((tab) => routeMap[tab] === location.pathname)
+  );
+
+  useEffect(() => {
+    const currentTab = tabs.find((tab) => routeMap[tab] === location.pathname);
+    setSelected(currentTab);
+  }, [location.pathname]);
 
   const handleClick = (tab) => {
     const path = routeMap[tab];
+    setSelected(tab); // Immediate UI feedback
     if (path.includes("#")) {
       window.location.href = path;
     } else {
       navigate(path);
     }
-    if (onClickItem) onClickItem(); // close sidebar if passed
+    if (onClickItem) onClickItem();
   };
 
   return (
@@ -59,7 +67,7 @@ const Chip = ({ text, selected, onClick }) => {
           layoutId="pill-tab"
           transition={{ type: "spring", duration: 0.5 }}
           className="absolute inset-0 z-0 px-4 py-2 bg-primaryCol rounded-3xl"
-        ></motion.span>
+        />
       )}
     </button>
   );
@@ -114,7 +122,7 @@ const Navbar = () => {
       </div>
 
       <a
-        href="https://calendly.com/thechillsroom/30min"
+        href="mailto:esanrichard2@gmail.com"
         target="_blank"
         className="max-lg:hidden"
       >
@@ -184,7 +192,6 @@ const Navbar = () => {
                   </div>
                 );
               })}
-              
             </motion.div>
           </>
         )}

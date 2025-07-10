@@ -22,10 +22,10 @@ const Hero = () => {
           Licensed and trusted, Upstate Electrical Systems LLC delivers safe,
           high-quality solutions for homes across Chesnee and surrounding areas.
         </p>
-        <div className="bg-white p-3 gap-x-10 max-md:text-sm rounded-full flex items-center w-fit">
+        {/* <div className="bg-white p-3 gap-x-10 max-md:text-sm rounded-full flex items-center w-fit">
           <p className="font-semibold">Call us</p>
           <img src="/call.svg" className='max-md:w-8'/>
-        </div>
+        </div> */}
       </section>
       <article className='flex gap-x-5  max-sm:gap-x-3 font-bold max-md:text-xs'>
         <div className='text-primaryCol p-3 max-sm:p-2 md bg-secondaryCol rounded-md w-full  flex items-center gap-x-3  hover:scale-105 active:scale-95 transition-all'>

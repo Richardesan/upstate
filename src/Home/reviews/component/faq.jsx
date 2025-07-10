@@ -61,7 +61,7 @@ const Faq = () => {
           >
          
             <div
-              className="flex justify-between items-center gap-x-2 py-3 px-6 max-sm:px-6 max-sm:py-3 cursor-pointer"
+              className="flex justify-between items-start gap-x-2 py-3 px-6 max-sm:px-4 max-sm:py-3 cursor-pointer"
             >
               <h1
                 className={`text-lg syne-regular   max-sm:text-base rotate-0`}
@@ -75,7 +75,7 @@ const Faq = () => {
             </div>
 
             <div
-              className={`transition-all duration-150  px-12 ${
+              className={`transition-all duration-150  px-12  ${
                 openIndex === index ? "max-h-[500px] py-4" : "max-h-0"
               } overflow-hidden max-sm:px-7`}
             >
