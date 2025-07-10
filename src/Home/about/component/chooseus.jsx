@@ -31,7 +31,7 @@ const Chooseus = () => {
   ];
 
   return (
-    <div className="w-full my-12 flex items-center justify-center p-28 max-lg:px-10 max-md:px-4">
+    <div className="w-full my-12 flex items-center justify-center px-28 max-lg:px-10 max-md:px-4">
       <div className="w-full max-w-7xl  ">
         <div className="flex items-center gap-x-3">
           <img src="/variables.svg" alt="variables" />
