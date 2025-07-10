@@ -89,7 +89,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center left-0 fixed top-0  w-full z-50  px-28 max-md:px-4 py-4 backdrop-blur-md ">
+    <nav className="text-white flex justify-between items-center left-0 fixed top-0  w-full z-50  px-28 max-md:px-4 pt-2 backdrop-blur-md ">
       <Link to={AppRoutes.home}>
         <section className="flex items-center font-bold">
           <div className="w-28 h-20 overflow-hidden">

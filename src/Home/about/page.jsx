@@ -18,7 +18,7 @@ const About = () => {
 
         <div className="relative z-10 flex flex-col text-white justify-center max-md:w-full w-8/12 text-xl  h-full">
           <h1 className="text-white text-4xl font-bold">About Us</h1>
-          <div className="space-y-5 mt-9 max-md:text-lg max-md:space-y-4">
+          <div className="space-y-5 mt-9 max-sm:mt-4 max-md:text-base max-md:space-y-1">
             <p>
               At Upstate Electrical Systems LLC, we provide reliable,
               top-quality electrical services across Upstate South Carolina.

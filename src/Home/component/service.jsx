@@ -16,13 +16,13 @@ const ServiceItem = ({ reverse, title, description, image }) => {
       } items-center justify-between mt-10 rounded-2xl`}
     >
       <div className="max-w-2xl w-full">
-        <p className="text-xl font-bold mb-2">{title}</p>
+        <p className="text-xl max-sm:text-lg font-bold mb-2">{title}</p>
         <p>{description}</p>
           <button className="bg-secondaryCol text-primaryCol px-8 py-2 rounded-md font-bold mt-4  active:scale-90 transition-all">
         View more
       </button>
       </div>
-      <div className="h-[22rem] w-[30rem] max-md:w-full max-md:mb-4 rounded-2xl overflow-hidden">
+      <div className="h-[22rem] w-[30rem] max-sm:h-[15rem] max-md:w-full max-md:mb-4 rounded-2xl overflow-hidden">
         <img
           src={image}
           alt="services"
