@@ -31,8 +31,8 @@ const Chooseus = () => {
   ];
 
   return (
-    <div className="w-full my-12 flex items-center justify-center">
-      <div className="w-full max-w-7xl max-lg:px-10 max-md:px-4">
+    <div className="w-full my-12 flex items-center justify-center p-28 max-lg:px-10 max-md:px-4">
+      <div className="w-full max-w-7xl  ">
         <div className="flex items-center gap-x-3">
           <img src="/variables.svg" alt="variables" />
           <h1 className="text-[#021419] text-4xl capitalize font-bold">
@@ -44,7 +44,7 @@ const Chooseus = () => {
           professional solutions that generate long-term value of everything you
           require, exactly when you need it.
         </p>
-        <section className="flex flex-col max-md:mt-6 items-center md:flex-row gap-x-10 justify-between">
+        <section className="flex flex-col max-md:mt-6 items-center lg:flex-row gap-x-10 justify-between">
           <div className="h-[615px] w-full max-w-[615px] rounded-2xl overflow-hidden">
             <img
               src="/choose.jpg"
@@ -52,7 +52,7 @@ const Chooseus = () => {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="w-full  space-y-4 mt-3 max-md:mt-6">
+          <div className="w-full  space-y-4 mt-3 max-lg:mt-6">
             {data.map((item, index) => {
               const ref = useRef(null);
               const inView = useInView(ref, { once: true, margin: "-90px" });

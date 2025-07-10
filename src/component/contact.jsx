@@ -48,7 +48,7 @@ const Contact = () => {
   });
 
   return (
-    <div className="bg-[linear-gradient(180deg,_#97EBF4_0%,_#58898E_97%)] py-14  max-lg:px-10 max-md:px-4 max-md:py-12">
+    <div className="bg-[linear-gradient(180deg,_#97EBF4_0%,_#58898E_97%)] py-14 px-28 max-lg:px-10 max-md:px-4 max-md:py-12">
       <p className="text-3xl font-bold max-w-7xl w-full mx-auto">Contact us</p>
       <form
         onSubmit={formik.handleSubmit}

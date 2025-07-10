@@ -59,7 +59,7 @@ const Services = () => {
 
         <div className="absolute inset-0 bg-[#0214198C]" />
 
-        <div className="relative z-10 flex flex-col text-white justify-center w-6/12 max-md:w-full text-xl h-full">
+        <div className="relative z-10 flex flex-col text-white justify-center w-6/12 max-md:w-full text-xl max-md:text-base h-full">
           <h1 className="text-white text-4xl font-bold">
             Expert Electrical Services in Upstate
           </h1>
