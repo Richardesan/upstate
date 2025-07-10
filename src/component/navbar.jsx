@@ -122,7 +122,7 @@ const Navbar = () => {
       </div>
 
       <a
-        href="mailto:esanrichard2@gmail.com"
+        href="mailto:Upstateelectricalsystemsllc@gmail.com"
         target="_blank"
         className="max-lg:hidden"
       >

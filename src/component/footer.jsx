@@ -1,6 +1,8 @@
 import React from "react";
 import { FiFacebook, FiInstagram } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
+import { AppRoutes } from "../utils/route";
+import { Link } from "react-router-dom";
 const Footer = () => {
   const iconStyle =
     "text-3xl hover:scale-105 hover:text-secondaryCol transition-all duration-200 active:95 cursor-pointer";
@@ -26,10 +28,32 @@ const Footer = () => {
           <p className="text-white font-semibold mb-4">Company</p>
            <div className="space-y-1">
 
-          <p className={linkStyle}>Home</p>
-          <p className={linkStyle}>Services</p>
-          <p className={linkStyle}>Projects</p>
-          <p className={linkStyle}>Reviews</p>
+          <p className={linkStyle}>
+            <Link to={AppRoutes.home}>
+            Home
+            </Link>
+            </p>
+             <p className={linkStyle}>
+            <Link to={AppRoutes.about}>
+            About
+            </Link>
+            </p>
+          <p className={linkStyle}>
+            <Link to={AppRoutes.services}>
+            Services
+            </Link>
+            </p>
+          <p className={linkStyle}>
+            <Link to={AppRoutes.projects}>
+            Projects
+            </Link>
+            </p>
+          <p className={linkStyle}>
+            
+            <Link to={AppRoutes.reviews}>
+            Reviews
+            </Link>
+          </p>
            </div>
 
         </div>
@@ -48,14 +72,14 @@ const Footer = () => {
         </div>
          <div className="text-[#9CA3AF] ">
           <p className="text-white font-semibold mb-4">Hours</p>
-          <ul className="space-y-1">
+          <ul className="space-y-1 list-disc ">
             <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
-            <li>Sun: 12:00am - 12:00pm</li>
+            <li>Mon: 12:00am - 12:00pm</li>
+            <li>Tue: 12:00am - 12:00pm</li>
+            <li>Wed: 12:00am - 12:00pm</li>
+            <li>Thu: 12:00am - 12:00pm</li>
+            <li>Fri: 12:00am - 12:00pm</li>
+            <li>Sat: 12:00am - 12:00pm</li>
           </ul>
         </div>
       </section>

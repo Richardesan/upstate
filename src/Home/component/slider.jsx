@@ -5,10 +5,10 @@ const imgs = [
   "/choose.jpg",
   "/services.jpg",
   "/industrial.jpg",
-  "/services.jpg",
-  "/services.jpg",
-  "/services.jpg",
-  "/services.jpg",
+  "/snow.jpg",
+  "/commerical.jpg",
+  "/construction.jpg",
+  "/airC.jpg",
 
 ];
 
