@@ -2,37 +2,33 @@ import React, { useState } from "react";
 import { FaAngleUp } from "react-icons/fa";
 const faqData = [
   {
-    question: "What is The Chills Room about?",
+    question: "What residential electrical services do you offer in Chesnee, SC?",
     answer:
-      "The Chills Room is a member-driven community with a strong focus on education and personal growth. Our members come from various sectors within the Web3 space, with an emphasis on NFTs, Web3 gaming, and other niche. Our mission is to expand the awareness of these emerging fields within our geographical region while enhancing the financial success of our members by helping them turn their skills into profitable ventures.",
+      "We provide a full range of residential electrical services including wiring, panel upgrades, lighting installations, outlet repairs, circuit troubleshooting, and more — all performed by licensed electricians to ensure safety and reliability.",
   },
   {
-    question: "⁠How to become a member of the community?",
-    answer: `Joining our community is by invite only. Look out for the application link on the Admin account on X; apply, and if you are accepted, you will get 
-      an invite link from Abefe or Sanmi only.`,
+    question: "Are you licensed and insured?",
+    answer:
+      "Yes, Upstate Electrical Systems LLC is fully licensed and insured. We strictly adhere to all safety and building regulations to give our clients peace of mind and top-tier service.",
   },
   {
-    question: "What benefits do I get from being part of this community?",
-    answer: `Being a member of The Chills Room gives you access to a spectrum of benefits 
-    designed to help you grow, create, and connect. You'll have the opportunity to network with
-     like-minded creators, gamers, and Web3 enthusiasts, collaborate on innovative projects. Also, members enjoy exclusive access to resources, educational content, and events such as workshops, NFT whitelists, and other exclusive partner communities. Being part of our community also means you're contributing to and shaping the future of web3 in a supportive, inclusive environment.`,
+    question: "Do you offer emergency electrical services?",
+    answer:
+      "Absolutely. We understand that electrical issues can happen anytime. We provide prompt emergency services to ensure your home remains safe and powered when you need it most.",
   },
   {
-    question: "How to Partner/Collaborate with Us?",
-    answer: `
-    We welcome partnerships and collaborations with project founders, community leaders, and collaboration managers who are interested in working with The Chills Room. To initiate a discussion, please reach out via mail, or directly message our community page or the Founder’s X account.`,
+    question: "What areas besides Chesnee, SC do you serve?",
+    answer:
+      "In addition to Chesnee, we serve surrounding areas throughout the Upstate South Carolina region. If you’re unsure whether we cover your area, feel free to contact us.",
   },
   {
-    question: "⁠How to join our Gamers & Content Creator Clique?",
-    answer: `Currently, the only way to become a part of our Gamers Clique is by applying “here(link)”. Upon submission, candidates will undergo a one-on-one interview with both the Gamers Captain and 
-    Content Head before receiving the role.`,
+    question: "How can I schedule an appointment or request a quote?",
+    answer:
+      "You can easily schedule a service or request a free quote by calling us directly or filling out the contact form on our website. We’ll get back to you promptly with the next steps.",
   },
-
 ];
-const radialStyle = {
-  borderRadius: "344.642px",
-  filter: "blur(92.249px)",
-};
+
+
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);

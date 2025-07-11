@@ -9,7 +9,7 @@ const Contact = () => {
             Schedule your appointment today and take the first step toward a
             safer, more efficient home.
           </p>
-           <p className="text-white text-base font-bold mt-2">Contact with us</p>
+           <p className="text-white text-base font-bold mt-2">Contact  us</p>
           <div className=" p-2 rounded-full flex items-center gap-x-3 bg-white w-fit mt-4">
             <div className="w-9" >
               
