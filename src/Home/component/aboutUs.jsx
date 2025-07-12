@@ -28,7 +28,7 @@ const AboutUs = () => {
             updating an older property, or need help in a pinch, our team is
             available 24/7 to get the job done right.</p>
           </div>
-          <p className="text-white text-xl font-semibold mt-2 max-md:text-lg">Contact with us</p>
+          <p className="text-white text-xl font-semibold mt-2 max-md:text-lg">Contact us</p>
           <div className=" p-3 rounded-full flex items-center gap-x-3 bg-white w-fit">
             <div className="w-11 max-md:w-9"  >
             <img src="/Facebook.svg" className="w-full hover:scale-105 active:scale-95 transition-all cursor-pointer" />
