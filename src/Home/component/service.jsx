@@ -46,7 +46,7 @@ const Service = () => {
 
       <ServiceItem
         title="RESIDENTIAL ELECTRICAL SERVICES"
-        description="Upstate Electrical Systems LLC offers comprehensive domestic electrical services for home safety and efficiency, ranging from minor modifications to full overhauls, ensuring clean workmanship and code compliance."
+        description="Upstate Electrical Systems LLC offers comprehensive  electrical services for home safety and efficiency, ranging from minor modifications to full overhauls, ensuring clean workmanship and code compliance."
         image="/services.jpg"
       />
       <ServiceItem
