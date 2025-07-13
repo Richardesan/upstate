@@ -31,7 +31,7 @@ const Hero = () => {
         </div> */}
       </section>
       <article className='flex gap-x-5  max-sm:gap-x-3 font-bold max-md:text-xs'>
-        <div onClick={handleCall} className='text-primaryCol w-1/2 p-3 max-sm:p-2 md bg-secondaryCol rounded-md   flex items-center gap-x-3  hover:scale-105 active:scale-95 transition-all'>
+        <div onClick={handleCall} className='text-primaryCol w-1/2 max-sm:w-full p-3 max-sm:p-2 md bg-secondaryCol rounded-md   flex items-center gap-x-3  hover:scale-105 active:scale-95 transition-all'>
           <img src='/elelctric.svg' alt='electric' />
           <p>Emergency Services</p>
         </div>
