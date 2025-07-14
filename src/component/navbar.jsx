@@ -98,11 +98,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center left-0 fixed top-0 w-full z-50 px-28 max-md:px-4 max-lg:px-10 pt-2 backdrop-blur-md">
+    <nav className="text-white flex justify-between items-center left-0 fixed top-0 w-full z-50 px-28 max-md:px-4 max-lg:px-10 py-2 backdrop-blur-md">
       <Link to={AppRoutes.home}>
         <section className="flex items-center font-bold">
-          <div className="w-28 h-20 overflow-hidden">
-            <img src="/logo.svg" className="w-full h-full" />
+          <div className="w-36 max-sm:w-28  overflow-hidden">
+            <img src="/logo.png" className="w-full " />
           </div>
         </section>
       </Link>
@@ -152,8 +152,8 @@ const Navbar = () => {
             >
               <div className="flex justify-between items-center mb-20">
                 <section className="flex items-center font-bold">
-                  <div className="w-[72px] h-[72px]">
-                    <img src="/logo.svg" />
+                  <div className="w-28 ">
+                    <img src="/logo.png" />
                   </div>
                 </section>
                 <div
