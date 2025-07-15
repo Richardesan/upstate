@@ -38,7 +38,13 @@ const AboutUs = () => {
 
             </div>
             <div className="w-11 max-md:w-9" >
+                <a
+        href="mailto:Upstateelectricalsystemsllc@gmail.com"
+        target="_blank"
+      >
             <img src="/mail.svg" className="w-full hover:scale-105 active:scale-95 transition-all cursor-pointer" />
+
+      </a>
 
             </div>
            </div>
