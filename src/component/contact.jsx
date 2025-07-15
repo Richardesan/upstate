@@ -12,8 +12,10 @@ const Contact = () => {
            <p className="text-white text-base font-bold mt-2">Contact  us</p>
           <div className=" p-2 rounded-full flex items-center gap-x-3 bg-white w-fit mt-4">
             <div className="w-9" >
-              
+              <a href="https://www.facebook.com/share/16dCazSr9f/?mibextid=wwXIfr" target="_blank">
             <img src="/Facebook.svg" className="w-full hover:scale-105 active:scale-95 transition-all cursor-pointer" />
+              
+              </a>
 
             </div>
             <div className="w-9" >

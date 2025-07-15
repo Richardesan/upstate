@@ -18,7 +18,10 @@ const Footer = () => {
           <p>P.O. Box 58 Chesnee sc 29323</p>
           <p className="mt-1">Upstateelectricalsystemsllc@gmail.com</p>
           <div className="flex gap-x-3 items-center mt-5">
+            <a href="https://www.facebook.com/share/16dCazSr9f/?mibextid=wwXIfr" target="_blank">
             <FiFacebook className={iconStyle} />
+            
+            </a>
             <FiInstagram className={iconStyle} />
             <FaXTwitter className={iconStyle} />
           </div>

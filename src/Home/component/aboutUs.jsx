@@ -31,7 +31,10 @@ const AboutUs = () => {
           <p className="text-white text-xl font-semibold mt-2 max-md:text-lg">Contact us</p>
           <div className=" p-3 rounded-full flex items-center gap-x-3 bg-white w-fit">
             <div className="w-11 max-md:w-9"  >
+              <a href="https://www.facebook.com/share/16dCazSr9f/?mibextid=wwXIfr" target="_blank">
             <img src="/Facebook.svg" className="w-full hover:scale-105 active:scale-95 transition-all cursor-pointer" />
+
+              </a>
 
             </div>
             <div className="w-11 max-md:w-9" >
